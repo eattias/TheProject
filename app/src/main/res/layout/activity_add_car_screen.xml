@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_car"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    android:weightSum="1"
+    tools:context="com.example.user.theproject.controller.addCarScreen">
+
+    <Spinner
+        android:id="@+id/AssociatedBranchSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/modelCodeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/carNumEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Car number"
+        android:inputType="number" />
+
+
+    <EditText
+        android:id="@+id/kilometersEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Number of kilometers"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/addCarButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add car"
+        android:textSize="18sp" />
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.theproject">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="CarNGo"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".controller.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".controller.MainScreen" />
+        <activity android:name=".controller.UserScreen" />
+        <activity android:name=".controller.CarScreen" />
+        <activity android:name=".controller.BranchScreen" />
+        <activity android:name=".controller.addUserScreen" />
+        <activity android:name=".controller.listUsersScreen" />
+    <activity android:name=".controller.addCarScreen" />
+    <activity android:name=".controller.listCarsScreen" />
+    <activity android:name=".controller.addModel" />
+    <activity android:name=".controller.listModels" />
+
+    <activity android:name=".controller.ModelScreen"></activity>
+</application>
+
+</manifest>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.theproject.controller.UserScreen"
+    android:background="@drawable/gradient"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/addUserButton"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Add user"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <Button
+        android:id="@+id/listOfUsersButton"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:text="Show users"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="227dp" />
+</LinearLayout>
